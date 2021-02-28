@@ -16,4 +16,7 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use("Route");
 
-Route.get("/api/fuzzball", "UserController.test");
+Route.get("/api/fuzzballs", "UserController.entireDb");
+Route.get("/api/fuzzball/:entry1/:entry2", "UserController.oneEntryReturn");
+Route.post("/api/fuzzball", "UserController.oneNewEntry");
+Route.post("/api/insertEntireInDB", "UserController.insertEntireInDB");

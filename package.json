@@ -26,6 +26,7 @@
     "@adonisjs/lucid": "^6.1.3",
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8",
+    "axios": "^0.21.0",
     "fuzzball": "^1.3.0",
     "mssql": "^4.1.0"
   },
